@@ -1,0 +1,158 @@
+body {
+  margin: 0px;
+  padding: 0;
+}
+
+ul {
+  background-color: #2d2a2a;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+}
+
+a {
+  color: #f2f9f8;
+  font-size: 24px;
+  font-family: sans-serif;
+  display: block;
+  padding: 11px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 120px 10px;
+  height: 60px;
+  text-align: center;
+  color: #f2f9f8;
+  font-size: 72px;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 10px 60px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* #header {
+  height: 5vh;
+} */
+
+#main {
+  min-height: calc(100vh - 5vh);
+}
+
+#footer {
+  background-color: #2d2a2a;
+  height: 5vh;
+}
+
+#footerText {
+  color: #f2f9f8;
+  text-align: center;
+  padding: 0;
+}
+
+#bg1 {
+  background-image: url("images/bg1.jpg");
+}
+
+#bg2 {
+  background-image: url("images/bg2.jpg");
+}
+
+#bg3 {
+  background-image: url("images/bg3.jpg");
+}
+
+#bg5 {
+  background-image: url("images/bg5.jpg");
+}
+
+.picBackdrop {
+  background-position: center;
+  background-size: cover;
+}
+
+.active {
+  background-color: #57d1c9;
+}
+
+@media (max-height: 250px) and (max-width: 200px) {
+
+  /* a {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+
+  h1 {
+    padding: 40px 10px;
+    font-size: 36px;
+  }
+
+  #footerText {
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+  } */
+}
+
+@media (min-height: 700px) and (min-width: 576px) {
+
+  /* a {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+
+  h1 {
+    font-size: 22px;
+    padding: 60px 10px;
+  }
+  p {
+    font-size: 12px;
+  }
+  #header, #footer {
+    height: 10vh;
+  }
+  #footerText {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+  } */
+}
+
+@media (min-height: 950px) and (min-width: 1600px) {
+
+  /* a {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding: 100px 10px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #header, #footer {
+    height: 10vh;
+  }
+  #footerText {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+  } */
+}
